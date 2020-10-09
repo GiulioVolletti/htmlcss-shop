@@ -28,3 +28,9 @@ section{
   position: absolute;
   right: 0;
   top: 0;
+}
+.heart {
+  color: red;
+  text-align: center;
+
+}
