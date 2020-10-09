@@ -3,7 +3,11 @@
   margin: 0;
   border: 0;
 }
+body{
+  width: 1000px;
+  margin: auto;
 
+}
 section{
   padding: 10px;
 }
@@ -15,7 +19,7 @@ section{
 }
 
 /* immage background */
-.immage1 {
+.immage.one {
   padding: 180px 150px;
   background-image: url(../img/pd1.jpg);
   background-size: auto;
@@ -23,7 +27,7 @@ section{
   position: absolute;
 }
 
-.immage2 {
+.immage.two {
   padding: 180px 150px;
   background-image: url(../img/pd2.jpg);
   background-size: auto;
@@ -31,7 +35,7 @@ section{
   position: absolute;
 }
 
-.immage3 {
+.immage.tree {
   padding: 180px 150px;
   background-image: url(../img/pd3.jpg);
   background-size: auto;
