@@ -9,7 +9,7 @@ section{
 }
 
 .shop {
-  height: 400px;
+  height: 350px;
   width: 300px;
   display: inline-block;
 }
@@ -29,10 +29,10 @@ section{
   right: 0;
   top: 0;
 }
+
 .heart {
   display: none;
 }
-
 .immage:hover > .heart {
   color: red;
   text-align: center;
