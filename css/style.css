@@ -13,14 +13,35 @@ section{
   width: 300px;
   display: inline-block;
 }
-.immage {
+
+/* immage background */
+.immage1 {
   padding: 180px 150px;
   background-image: url(../img/pd1.jpg);
   background-size: auto;
   background-repeat: no-repeat;
   position: absolute;
 }
-.discount {
+
+.immage2 {
+  padding: 180px 150px;
+  background-image: url(../img/pd2.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.immage3 {
+  padding: 180px 150px;
+  background-image: url(../img/pd3.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+/* /immage background */
+
+/* discount green and red */
+.discountgreen {
   height: 40px;
   width: 65px;
   background-color: green;
@@ -30,6 +51,18 @@ section{
   top: 0;
 }
 
+.discountred {
+  height: 40px;
+  width: 65px;
+  background-color: red;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* discount green and red */
+
+/* hearts hover */
 .heart {
   display: none;
 }
@@ -40,3 +73,4 @@ section{
   bottom: 0;
   display: block;
 }
+/* hearts hover */
